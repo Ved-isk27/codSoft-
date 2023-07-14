@@ -1,0 +1,141 @@
+header li {
+    
+    margin: 30px;
+    color: deeppink;
+     
+    font-size: 40px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    float: right;  
+}
+body{
+    background-image: url("https://img.freepik.com/premium-vector/vector-illustration-design-abstract-art-background-print-wall-decor_29865-5501.jpg");
+    }
+.hero-content {
+    padding-top: 15%;
+    
+
+
+}
+.hero-content h1 {
+    text-align: center;
+    color: rgb(233, 122, 216);;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #8B008B;
+    font-size: 50px;
+}
+
+.hero-content p {
+    text-align: center;
+    color: goldenrod;
+    font-size: 60px;
+    text-shadow:darkgoldenrod;
+    font-family: cursive;
+    float: right;
+    margin: 60px;
+
+}
+.cry{
+    
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 100%;
+    text-align: center;
+}
+.hero {
+    align-items: center;
+    float:none;
+
+}
+#About p {
+    text-align: center;
+    color: fuchsia;
+    font-family:cursive;
+    font-size: 30px;
+}
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1700px;
+
+}
+.yo {
+   
+    float: left;
+    
+    height: 20vh;
+
+}
+.no {
+    float: right;
+    
+    height: 20vh;
+
+
+}
+
+
+
+#musician h1 {
+  text-align: center;
+  color: deeppink;
+  font-family: "Arial", sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#musician {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#musician .lily,
+#musician .dua,
+#musician .alan,
+#musician .justin,
+#musician .ed {
+  flex-basis: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#musician img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.ram {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: fantasy;
+}
+.siya {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.bajarang {
+    list-style: none;
+   text-align: center;
+   color: crimson;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
