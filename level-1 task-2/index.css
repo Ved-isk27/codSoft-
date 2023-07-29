@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px 4px rgb(33, 183, 220);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+li a:hover {
+    color: white;
+    
+    
+}
+li {
+    display:flex;
+    float: right;
+    justify-content:space-evenly;
+    margin-top: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+li a {
+  color: #8F00FF;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  width: 100%;
+
+}
+
+.Home {
+    padding-left: 20%;
+    padding-top: 3rem;
+}
+.himg {
+    width: 40%;
+    height: 50%;
+    padding-top: 0.10rem;
+}
+
+h3{
+    color: #8F00FF;
+}
+
+h1{
+    color: #C8A2C8;
+    margin-top: 2.5rem;
+    
+}
+
+.about {
+    color: #8F00FF;
+}
+.about-section {
+    
+    align-items: center;
+     display: flex;
+    
+}
+.a-text {
+    margin-top: 5rem;
+    padding-left: 7rem ;
+    padding-right: 4rem;
+    padding-top: 2.3rem;
+    font-size: 1.20rem;
+    
+}
+
+img {
+   padding-left: 2.9rem;
+    
+}
+.text-box {
+    border: 2.5px solid #ab7dce;
+    justify-content: center;
+    width: 350px; 
+    height: 250px;
+    margin: 0 auto;
+    padding: 10px; /* To horizontally center the box */
+  }
+  
+  .text-box p {
+    margin: 0; /* Remove default margin for the <p> element */
+  }
+  h2 {
+    color:#8F00FF;
+  }
+
+  p{
+    color:#C8A2C8;
+    justify-content:space-around;
+  }
+  .text-box-2 {
+    
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #ba97d5;
+    padding: 10px;
+    width: 450px; 
+    height: 230px;/* Set the desired width for the box */
+    margin: 0 auto; /* To horizontally center the box */
+  }
+.my {
+    margin-left: 7rem;
+    display: flex;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+ h4{
+    margin-left: 3.90rem; 
+    color:#C8A2C8;
+ }
+.clone {
+    width: 450px; 
+    height: 230px;
+    margin-left: 0.20rem;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.clone:hover{
+    color: crimson;
+}
+
+.Achievements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vedika {
+    font-size:3rem ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:500 ;
+    color:#8F00FF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.cert{
+    width: 450px;
+    height: 230px;
+    margin-left: 0.20rem;
+}
+
+.cont {
+    padding-left: 4rem;
+}
+
+.detail {
+    padding-top: 1.3rem;
+    padding-left: 3.5rem;
+    font-size: 1.3rem;
+}
+
+.contactme {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+/* Reset default margin and padding for footer and center its content */
+footer {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: black; /* Optional: Add a background color to the footer */
+}
+
+/* Optional: Add some styling to the footer text */
+footer p {
+    margin: 0;
+    color: #E6E6FA;
+    font-size: 20px;
+}
+
+.social:hover {
+    color: darkviolet;
+}
+.social:visited {
+    color: antiquewhite;
+}
